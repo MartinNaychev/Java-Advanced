@@ -38,7 +38,7 @@ public class MathPotato {
            return false;
        }
         boolean isPrime = true;
-       
+
         for (int divisor = 2; divisor <= counter - 1; divisor++) {
 
             if (counter % divisor == 0) {
