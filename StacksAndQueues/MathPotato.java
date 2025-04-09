@@ -38,11 +38,9 @@ public class MathPotato {
            return false;
        }
         boolean isPrime = true;
-
-        // Прости числа: делят се целочислено без остатък на 1 и себе си!
-        // Непрости числа: Търсим още един делител
+       
         for (int divisor = 2; divisor <= counter - 1; divisor++) {
-            // Има друг възможен делител!
+
             if (counter % divisor == 0) {
                 isPrime = false;
                 break;
