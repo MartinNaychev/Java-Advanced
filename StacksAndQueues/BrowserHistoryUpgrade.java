@@ -16,14 +16,14 @@ public class BrowserHistoryUpgrade {
                 if (urlStack.size() <= 1) {
                     System.out.println("no previous URLs");
                 } else {
-                   forwardStack.push(urlStack.pop());
+                    forwardStack.push(urlStack.pop());
                     System.out.println(urlStack.peek());
                 }
 
             } else if (input.equals("forward")) {
-                if (forwardStack.isEmpty()){
+                if (forwardStack.isEmpty()) {
                     System.out.println("no next URLs");
-                }else {
+                } else {
                     System.out.println(forwardStack.peek());
                     urlStack.push(forwardStack.pop());
                 }
@@ -31,7 +31,7 @@ public class BrowserHistoryUpgrade {
             } else {
                 urlStack.push(input);
                 System.out.println(input);
-               forwardStack.clear();
+                forwardStack.clear();
 
             }
 
