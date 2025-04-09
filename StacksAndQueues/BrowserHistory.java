@@ -27,7 +27,5 @@ public class BrowserHistory {
             input = scanner.nextLine();
 
         }
-
-
     }
 }
