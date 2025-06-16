@@ -36,7 +36,7 @@ public class StickyFingers {
                     if (rowOfD == 0) {
                         System.out.println("You cannot leave the town, there is police outside!");
                     } else {
-                        rowOfD -= 1;
+                        rowOfD --;
 
                     }
 
@@ -45,7 +45,7 @@ public class StickyFingers {
                     if (rowOfD == matrixSize - 1) {
                         System.out.println("You cannot leave the town, there is police outside!");
                     } else {
-                        rowOfD += 1;
+                        rowOfD ++;
 
                     }
                 }
@@ -53,7 +53,7 @@ public class StickyFingers {
                     if (colofD == 0) {
                         System.out.println("You cannot leave the town, there is police outside!");
                     } else {
-                        colofD -= 1;
+                        colofD --;
 
                     }
                 }
@@ -62,7 +62,7 @@ public class StickyFingers {
                         System.out.println("You cannot leave the town, there is police outside!");
                     } else {
 
-                        colofD += 1;
+                        colofD ++;
                     }
                 }
             }
