@@ -52,7 +52,7 @@ public class FoodFinder {
 
         }
 
-        int counter = 0;
+
         List<String> words = new ArrayList<>();
 
         for (var entry : foundedWords.entrySet()) {
@@ -65,13 +65,12 @@ public class FoodFinder {
 
 
             if (word.equals(foundedWord)) {
-                counter++;
                 words.add(word);
             }
 
         }
 
-        System.out.printf("Words found: %d%n", counter);
+        System.out.printf("Words found: %d%n", words.size());
         words.forEach(word -> System.out.println(word));
 
 
