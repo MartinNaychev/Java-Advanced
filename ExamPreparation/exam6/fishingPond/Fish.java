@@ -1,4 +1,4 @@
-package fishingPond;
+package ExamPreparation.exam6.fishingPond;
 
 public class Fish {
     private String species;
