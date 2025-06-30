@@ -1,4 +1,4 @@
-package campers;
+package Exam.campers;
 
 public class Camper {
     private String name;
