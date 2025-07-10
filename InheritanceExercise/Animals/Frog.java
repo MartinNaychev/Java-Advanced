@@ -1,4 +1,4 @@
-package Animals;
+package InheritanceExercise.Animals;
 
 public class Frog extends Animal{
 

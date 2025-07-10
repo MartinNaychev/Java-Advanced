@@ -1,4 +1,4 @@
-package Animals;
+package InheritanceExercise.Animals;
 
 public class Kitten extends Cat {
     public Kitten(String name, int age) {
