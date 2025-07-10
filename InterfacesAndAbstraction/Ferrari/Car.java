@@ -1,4 +1,4 @@
-package Ferrari;
+package InterfacesAndAbstraction.Ferrari;
 
 public interface Car {
     String brakes();

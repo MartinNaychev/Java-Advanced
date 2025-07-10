@@ -1,4 +1,4 @@
-package Ferrari;
+package InterfacesAndAbstraction.Ferrari;
 
 public class Ferrari implements Car{
     private String driverName;
