@@ -43,7 +43,7 @@ public class RepairShop {
     }
     public String report(){
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Vehicles in the preparatory:");
+        stringBuilder.append("PolymorphismExercises.PolymorphismExercises.Vehicles in the preparatory:");
         for (Vehicle vehicle : vehicles) {
             stringBuilder.append(System.lineSeparator());
             stringBuilder.append(vehicle.toString());

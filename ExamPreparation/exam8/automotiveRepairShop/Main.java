@@ -26,7 +26,7 @@ public class Main {
                 Vehicle vehicle7 = new Vehicle("JTDKB20U993123456", 65000, "Piston damage");
 
 
-//Add More Vehicles
+//Add More PolymorphismExercises.PolymorphismExercises.Vehicles
          repairShop.addVehicle(vehicle2);
         repairShop.addVehicle(vehicle3);
         repairShop.addVehicle(vehicle4);
@@ -47,7 +47,7 @@ public class Main {
 
 //Report
         System.out.println(repairShop.report());
-//Vehicles in the preparatory:
+//PolymorphismExercises.PolymorphismExercises.Vehicles in the preparatory:
 //Damage: Overheating issue, Vehicle: 5YJSA1CN7DFP12345 (80000 km)
 //Damage: Coolant leakage, Vehicle: JM1GJ1W56F1234567 (120000 km)
 //Damage: Timing belt failure, Vehicle: 2C3CDXAT4CH123456 (95000 km)
